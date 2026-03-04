@@ -7,8 +7,22 @@
 
 /* Global styles 
 ------------------------------------*/
+html{
+    box-sizing: border-box;
+}
+*, *:before, *:after {
+    box-sizing: inherit;
+}
 body {
     background-color: #ffffff;
+    margin: 0;
+}
+
+.content-wrap {
+    max-width: 950px;
+    margin: auto 0;
+    padding:50px;
+    overflow: hidden;
 }
 
 h1{
@@ -23,6 +37,7 @@ h2{
     font-weight: 564;
     font-style: italic;
     font-size: 25px;
+    margin-top: 0;
 }
 
 h3{
@@ -42,6 +57,9 @@ h3{
 
 /* Header & Footer 
 ------------------------------------*/
+.profile-img {
+    border-radius: 50%;
+}
 nav{
     background-color: #3b413b;
     padding: 20px;
@@ -68,10 +86,32 @@ footer a {
     font-size: 16px;
 }
 
+.contact-info a{
+    color: #ffffff;
+    display: inline-block;
+}
+
 #about {
     background-color: #9DB5B2;
     padding: 20px;
     margin-bottom: 20px;
+}
+
+header h1,h2{
+    margin:0px;
+}
+
+.column-narrow {
+    width: 30%;
+    float: left;
+    padding-right: 3%;
+    min-height: 175px;
+}
+
+.column-wide {
+    width: 70%;
+    float: left;
+    min-height: 225px;
 }
 
 /* Work Experience
