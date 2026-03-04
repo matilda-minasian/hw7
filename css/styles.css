@@ -20,7 +20,7 @@ body {
 
 .content-wrap {
     max-width: 950px;
-    margin: auto 0;
+    margin: 0 auto;
     padding:50px;
     overflow: hidden;
 }
@@ -60,19 +60,9 @@ h3{
 .profile-img {
     border-radius: 50%;
 }
-nav{
-    background-color: #3b413b;
-    padding: 20px;
-    text-align: center;
+header {
+    background-color: #9DB5B2;
 }
-
-nav a {
-    color: #ffffff;
-    margin: 0 15px;
-    font-size: 18px;
-}
-
-
 footer{
     background-color: #3b413b;
     color: #ffffff;
@@ -94,7 +84,6 @@ footer a {
 #about {
     background-color: #9DB5B2;
     padding: 20px;
-    margin-bottom: 20px;
 }
 
 header h1,h2{
@@ -120,7 +109,6 @@ header h1,h2{
 #work {
     background-color: #DAF0EE;
     padding: 20px;
-    margin-bottom: 20px;
 }
 
 
@@ -130,5 +118,4 @@ header h1,h2{
 #education {
     background-color: #9DB5B2;
     padding: 20px;
-    margin-bottom: 20px;
 }
