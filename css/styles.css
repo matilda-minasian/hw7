@@ -1,0 +1,94 @@
+/* Color Palette
+# - color 1 DAF0EE
+# - color 2 9DB5B2
+# - color 3 3B413C
+# - color 4 FFFFFF
+*/
+
+/* Global styles 
+------------------------------------*/
+body {
+    background-color: #ffffff;
+}
+
+h1{
+    font-family: 'Zalando Sans SemiExpanded', sans-serif;
+    font-weight: 564;
+    font-style: italic;
+    font-size: 40px;
+}
+
+h2{
+    font-family: 'Zalando Sans SemiExpanded', sans-serif;
+    font-weight: 564;
+    font-style: italic;
+    font-size: 25px;
+}
+
+h3{
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: 528;
+    font-style: normal;
+    font-variation-settings: 'YOPQ' 162;
+    font-size: 20px;
+}
+
+.bold-paragraph {
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+/* Header & Footer 
+------------------------------------*/
+nav{
+    background-color: #3b413b;
+    padding: 20px;
+    text-align: center;
+}
+
+nav a {
+    color: #ffffff;
+    margin: 0 15px;
+    font-size: 18px;
+}
+
+
+footer{
+    background-color: #3b413b;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer a {
+    color: #ffffff;
+    margin: 0 10px;
+    font-size: 16px;
+}
+
+#about {
+    background-color: #9DB5B2;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+/* Work Experience
+------------------------------------*/
+
+#work {
+    background-color: #DAF0EE;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+/* Education
+------------------------------------*/
+#education {
+    background-color: #9DB5B2;
+    padding: 20px;
+    margin-bottom: 20px;
+}
